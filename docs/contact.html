@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - SBA 307</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <h1>Contact Me</h1>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="general">General Inquiry</option>
+                    <option value="project">Project Collaboration</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section class="contact-info">
+            <h2>Other Ways to Reach Me</h2>
+            <address>
+                <strong>Email:</strong> student@example.com<br>
+                <strong>Phone:</strong> (555) 123-4567<br>
+                <strong>Location:</strong> New York, NY
+            </address>
+        </section>
+</body>
+</html>
